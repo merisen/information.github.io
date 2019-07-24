@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+	padding: 0;
+	border: 0;
+  position: relative;
+  top: 20rem;
+	font-size: 100%;
+  text-align: center;
+	font: inherit;
+	vertical-align: baseline;
+  background: #353b48;
+  color: #dcdde1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.1rem;
+  -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 6px;
+  border: solid 2px #ffffff;
+  margin-bottom: 3rem;
+  padding: 1em;
+  position: relative;
+  right: 0em;
+}
+
+a:hover {
+  border-bottom-color: transparent;
+  color: #f5f6fa;
+  border-radius: 0px;
+  border: solid 0px #ffffff;
+}
+
+h1 {
+  color: #f6b93b;
+  font-weight: 600;
+  line-height: 5;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.2rem;
+}
+
+h1 a, h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.8;
+}

@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background: #353b48; */
+  background-color: #000;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  font-family: "Source Sans Pro", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bar {
+  width: 12px;
+  height: 100px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.8s ease-in-out infinite;
+}
+
+.bar1 {
+  animation-delay: 0.1s;
+}
+
+.bar2 {
+  animation-delay: 0.2s;
+}
+
+.bar3 {
+  animation-delay: 0.3s;
+}
+
+.bar4 {
+  animation-delay: 0.4s;
+}
+
+.bar5 {
+  animation-delay: 0.5s;
+}
+
+.bar6 {
+  animation-delay: 0.6s;
+}
+
+.bar7 {
+  animation-delay: 0.7s;
+}
+
+.bar8 {
+  animation-delay: 0.8s;
+}
+
+@keyframes loading {
+  0% {
+    transform: scaleY(0.1);
+    background: #ff5e57;
+  }
+
+  50% {
+    transform: scaleY(1);
+    background: #ffd32a;
+  }
+
+  100% {
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+.projecttext {
+  font-weight: 300;
+  font-size: 1.7em;
+  line-height: 1.65;
+  text-align: center;
+  color: #ff9f43;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.container {
+  position: relative;
+  left: 50%;
+  top: 10em;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  margin: 20px;
+  padding: 24px;
+  width: 300px;
+  text-decoration: none;
+  font-family: "montserrat",sans-serif;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  background-size: 200%;
+  transition: 0.6s;
+}
+
+.btn1 {
+  background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+}
+
+.btn2 {
+  background-image: linear-gradient(to left,#C4E538,#009432,#C4E538);
+}
+
+.btn3 {
+  background-image: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+}
+
+.btn4 {
+  background-image: linear-gradient(to left,#FDA7DF,#9980FA,#FDA7DF);
+}
+
+.btn:hover {
+  background-position: right;
+}

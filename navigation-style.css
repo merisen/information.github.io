@@ -2,11 +2,15 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #353b48;
+  /* background: #353b48; */
+  background-color: #000;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: top center;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: monospace;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .container {

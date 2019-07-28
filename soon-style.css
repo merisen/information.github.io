@@ -8,7 +8,11 @@ body {
   text-align: center;
 	font: inherit;
 	vertical-align: baseline;
-  background: #353b48;
+  /* background: #353b48; */
+  background-color: #000;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: top center;
   color: #dcdde1;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;

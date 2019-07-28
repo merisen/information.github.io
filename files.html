@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="files.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Merisen's website</title>
+  <script type="text/javascript">
+    $(window).load(function() {
+      setTimeout(function () {
+        $(".container").show();
+        $(".projecttext").show();
+        $(".middle").delay(100).fadeOut().remove();}, 1000); // default = 5000
+      $(".projecttext").hide();
+      $(".container").hide();
+    });
+  </script>
+</head>
+<body>
+  <div class="middle">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+    <div class="bar bar4"></div>
+    <div class="bar bar5"></div>
+    <div class="bar bar6"></div>
+    <div class="bar bar7"></div>
+    <div class="bar bar8"></div>
+  </div>
+  <div class="projecttext">
+    <h1>Project's page</h1>
+  </div>
+  <div class="container">
+      <a href="ooops.html" class="btn btn1">IT STEP Work Page</a>
+      <a href="https://github.com/merisen" class="btn btn2">GitHub Work Page</a>
+      <a href="training.html" class="btn btn3">Personal training</a>
+      <a href="ooops.html" class="btn btn4">My library</a>
+    </div>
+</body>
+</html>
